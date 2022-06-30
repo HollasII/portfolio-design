@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+main {
+  display: grid;
+}
+main .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(173, 157, 138, 0.4);
+  padding: 50px 50px;
+}
+main .header .header-text {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #f24e1e;
+}
+main .header .nav-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 45px;
+  font-family: "League Spartan", sans-serif;
+  list-style: none;
+}
+main .header .nav-list a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #11302B;
+}/*# sourceMappingURL=style.css.map */

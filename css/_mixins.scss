@@ -1,0 +1,19 @@
+@mixin display(){
+    display: flex;
+    flex{
+        direction: column;
+    }
+    align-items: center;
+}
+@mixin font() {
+    @font-face {
+        font-family: 'Rounded Sans Serif 7';
+        src: url(https://www.1001freefonts.com/d/21729/rounded-sans-serif-7.zip);
+    }
+}
+
+@mixin backcolor {
+    background: rgba(0, 255, 101, 0.5);
+    box-shadow: 0.5px 8px 4px rgba(71, 142, 71, 0.54);
+    border-radius: 30px;
+}
