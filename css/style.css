@@ -197,9 +197,6 @@ main .portfolio {
   padding: 50px 50px;
   font-family: "League Spartan", sans-serif;
   color: #11302B;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   background-image: url(../images/portfolio\ website\ 1.png), url(../images/export\ png\ 1.png), url(../images/super\ png\ 1.png), url(../images/super\ png\ 2.png);
   background-position: 5% 25%, 95% 25%, 5% 70%, 95% 70%;
   background-repeat: no-repeat;
@@ -257,4 +254,81 @@ main .poet-corner p {
   line-height: 40px;
   color: rgba(242, 78, 30, 0.6);
   text-transform: capitalize;
+}
+main .experience {
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  padding: 50px 50px;
+  font-family: "League Spartan", sans-serif;
+  height: 789px;
+  background: rgba(173, 157, 138, 0.4);
+  background-image: url(../images/Line\ 4.png), url(../images/Line\ 4.png), url(../images/Line\ 4.png), url(../images/Line\ 4.png);
+  background-repeat: no-repeat;
+  background-position: 19% 66.5%, 39.5% 66.5%, 60.5% 66.5%, 81% 66.5%;
+  position: relative;
+}
+main .experience .head-text {
+  text-align: center;
+}
+main .experience .head-text h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 30px;
+  color: #f24e1e;
+  margin: 20px 0;
+}
+main .experience .head-text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 37px;
+  margin: 10px 0;
+  color: #11302B;
+}
+main .experience .steps {
+  display: flex;
+}
+main .experience .steps .step {
+  display: flex;
+  align-items: center;
+}
+main .experience .steps .stepper {
+  position: absolute;
+  left: 310px;
+  top: 570px;
+}
+main .experience .steps .step2 {
+  position: absolute;
+  left: 580px;
+}
+main .experience .steps .stepper2 {
+  position: absolute;
+  left: 840px;
+  top: 570px;
+}
+main .experience .steps .step3 {
+  position: absolute;
+  left: 1100px;
+}
+main .experience .years {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .experience .years li {
+  background-image: url(../images/Union.png);
+  width: 192px;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 29px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
