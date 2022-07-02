@@ -237,4 +237,24 @@ main .portfolio a {
   border-radius: 10px;
   left: 600px;
   top: 1417px;
+}
+main .poet-corner {
+  font-family: "League Spartan", sans-serif;
+  padding: 50px 50px;
+}
+main .poet-corner h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 30px;
+  color: #f24e1e;
+}
+main .poet-corner p {
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(242, 78, 30, 0.6);
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 $font: 'League Spartan', sans-serif;
-$head-font: 'Rounded Sans Serif 7', url(../rounded-sans-serif-7/rounded_sans_serif_7.ttf);
+$head-font: 'Inter', sans-serif;
 $colors: (main:#f24e1e, headc:rgba(173, 157, 138, 0.4), textt:#11302B, secondary:rgba(0, 255, 101, 0.5), third:#fff, awards:#CDCACA);
 $size: 30px;
 $gradient: linear-gradient(to right, map-get($colors, headc), map-get($colors, headc),map-get($colors, headc), rgba(234, 91, 48, 0.45), map-get($colors, headc));
