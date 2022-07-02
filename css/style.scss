@@ -270,7 +270,9 @@ main{
         align-items: flex-start;
         // justify-content: center;
         background-image: url(../images/portfolio\ website\ 1.png), url(../images/export\ png\ 1.png), url(../images/super\ png\ 1.png),url(../images/super\ png\ 2.png);
+        background-position: 5% 25%, 95% 25%, 5% 70%, 95% 70%;
         background-repeat: no-repeat;
+        position: relative;
 
         .text{
             margin-bottom: 90px;
@@ -291,6 +293,27 @@ main{
             }
         }
 
+        a{
+            position: absolute;
+            text-decoration: none;
+            display: flex;
+            padding: 15px;
+            gap: 12px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 44px;
+            color: map-get($colors , third );
+            background-color: rgba(0, 255, 101, 0.75);
+            border-radius: 10px;
+            left: 600px;
+            top: 1417px;
+        }
+
+    }
+
+    .poet-corner{
+        
     }
 }
 

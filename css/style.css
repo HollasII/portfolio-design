@@ -201,7 +201,9 @@ main .portfolio {
   flex-direction: column;
   align-items: flex-start;
   background-image: url(../images/portfolio\ website\ 1.png), url(../images/export\ png\ 1.png), url(../images/super\ png\ 1.png), url(../images/super\ png\ 2.png);
+  background-position: 5% 25%, 95% 25%, 5% 70%, 95% 70%;
   background-repeat: no-repeat;
+  position: relative;
 }
 main .portfolio .text {
   margin-bottom: 90px;
@@ -219,4 +221,20 @@ main .portfolio .text p {
   font-size: 48px;
   line-height: 30px;
   margin: 20px 0;
+}
+main .portfolio a {
+  position: absolute;
+  text-decoration: none;
+  display: flex;
+  padding: 15px;
+  gap: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 44px;
+  color: #fff;
+  background-color: rgba(0, 255, 101, 0.75);
+  border-radius: 10px;
+  left: 600px;
+  top: 1417px;
 }/*# sourceMappingURL=style.css.map */
