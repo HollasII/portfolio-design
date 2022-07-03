@@ -511,7 +511,7 @@ main{
                     height: 210px;
                     padding: 10px;
                     background: rgba(135, 51, 51, 0.6);
-                    margin: 10px;
+                    margin: 5px;
 
                     &::placeholder{
                         color: map-get($colors , third );
@@ -524,15 +524,97 @@ main{
                     border: none;
                     background: rgba(6, 244, 100, 0.5);
                     border-radius: 12px;
-                    margin: 10px;
+                    margin: 5px;
 
                     a{
                         text-decoration: none;
                         color: map-get($colors , third );
                     }
+
+                    &:hover{
+                        cursor: pointer;
+                    }
                 }
             }
         }
+
+
+    }
+
+    .say-hi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(242, 78, 30, 0.8);
+        background-image: url(../images/normal\ level.png);
+        background-repeat: no-repeat;
+        padding: 50px 50px;
+
+        .container{
+            font-family: $font;
+            color: map-get($colors , third );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 400px;
+            background: rgba(135, 51, 51, 0.6);
+            border: 6px dashed #FFFFFF;
+            border-radius: 50%;
+
+            h2{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 40px;
+            }
+
+            h3{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            div{
+                display: flex;
+                gap: 20px;
+                // flex-direction: column;
+            }
+        }
+
+    }
+}
+
+footer{
+    font-family: $font;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0 0;
+    color: map-get($colors , third );
+    background: map-get($colors , main   );
+
+    span{
+        font-size: 40px;
+    }
+
+    h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    h4{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        padding: 0 8px;
+        border-left: 1px solid #FFFFFF;
     }
 }
 
